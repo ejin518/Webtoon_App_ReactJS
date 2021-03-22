@@ -1,11 +1,39 @@
 import React from 'react'
-import WebtoonMaker from './webtoon-maker'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import styled from 'styled-components'
 
-// class App extends React.Component {} // state 상태 0, 라이프 사이클 함수 지원 0
+import ResetCSS from './components/reset-css'
+import { ROUTES } from './constants'
+
+import HomePage from './pages/home'
+import WebtoonPage from './pages/webtoon'
+
+import { UserContextProvider } from './contexts/user-context'
+
+const Container = styled.div`
+  max-width: 720px;
+  margin: 0 auto;
+  height: 100vh;
+`
 
 function App() {
-  //함수 용 컴포넌트, state x, 라이프 x, 좀 단순하고 흐름이 눈에 보임.
-  return <WebtoonMaker />
+  return (
+    <Container>
+      <ResetCSS />
+      <UserContextProvider>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path={ROUTES.HOME}>
+              <HomePage />
+            </Route>
+            <Route path={ROUTES.WEBTOON}>
+              <WebtoonPage />
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </UserContextProvider>
+    </Container>
+  )
 }
 
 export default App
