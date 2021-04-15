@@ -34,7 +34,7 @@ function reducer(state, action) {
 export function UserContextProvider({ children }) {
   const [state, dispatch] = useReducer(reducer, {
     user: {
-      name: '올라프',
+      name: 'Hailey',
     },
     recentlyWebtoons: JSON.parse(
       localStorage.getItem(RECENTLY_WEBTOONS) || '[]',

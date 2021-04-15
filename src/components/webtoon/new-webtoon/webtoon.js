@@ -6,43 +6,37 @@ import { Link } from 'react-router-dom'
 import { ROUTES } from '../../../constants'
 
 const Wrapper = styled.div`
-  float: left;
-  width: calc(100% / 3);
-  height: 175px;
-  padding: 0px 5px;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   box-sizing: border-box;
   display: inline-block;
-  @media (max-width: 1110px) {
-    height: 15.76vw;
-  }
-  @media (max-width: 768px) {
+  position: relative;
+  @media (max-width: 600px) {
     width: 100%;
-    margin-bottom: 10px;
-    height: 45.78vw;
   }
 `
 
-const Container = styled(Link)`
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-`
+const Container = styled(Link)``
 
 const Image = styled.img`
   position: absolute;
   top: 0;
   left: 0;
+  max-width: 100%;
+  max-height: 100%;
   width: 100%;
-  height: 100%;
 `
 
 const Info = styled.div`
   position: absolute;
-  top: 20px;
-  right: 20px;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
   box-sizing: border-box;
+  display: block;
+  width: 100%;
 `
 
 const Title = styled.h2`
@@ -50,11 +44,10 @@ const Title = styled.h2`
   text-overflow: ellipsis;
   white-space: nowrap;
   display: block;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: bold;
   color: #fff;
-  text-align: right;
 `
 const Author = styled.h3`
   overflow: hidden;
@@ -64,28 +57,18 @@ const Author = styled.h3`
   font-size: 14px;
   line-height: 20px;
   color: #fff;
-  text-align: right;
-`
-const Fav = styled.span`
-  display: block;
-  margin-top: 50px;
-  font-size: 15px;
-  font-weight: bold;
-  color: #00dc64;
-  text-align: right;
 `
 
 function Webtoon({ webtoon }) {
-  const { id, banner, title, author, favcount } = webtoon
+  const { id, imageUrl, title, author, description } = webtoon
 
   return (
     <Wrapper>
       <Container to={`${ROUTES.WEBTOON.HOME}/${id}`}>
-        <Image src={banner} />
+        <Image src={imageUrl} />
         <Info>
           <Title>{title}</Title>
           <Author>{author}</Author>
-          <Fav>{favcount}</Fav>
         </Info>
       </Container>
     </Wrapper>

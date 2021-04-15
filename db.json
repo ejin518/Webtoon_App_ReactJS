@@ -1,114 +1,605 @@
 {
-    "new": [
-      {
-        "id": 6,
-        "title": "율리",
-        "author": "돌배",
-        "description": "신의 사원의 대도서관 관장인 쿠무치는 한 노예시장에서 율리라는 이름의 아이를 데려온다.  사원의 일꾼 대신 율리에게 맡겨진 임무는 이웃나라로 함께 가서 사원의 지도자인 '하늘스승'의 후계자를 찾아 데려오는 것이다.  쿠무치와 율리는 신의 사원을 나와 동쪽으로 떠나는 먼 길을 떠난다.  두 사람은 여행길에 여러 다양한 사람들을 만나고 여러 나라를 거쳐 여행한다.  그리고 그들은 드디어 찾고 있었던 '작은하늘스승'을 만나게 된다.",
-        "favcount": "관심 100만 +",
-        "isUpdate": true,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/765470/thumbnail/thumbnail_IMAG19_e4b89c99-6b8b-4b4e-99e8-a70352223a40.jpg"
-      },
-      {
-        "id": 7,
-        "title": "브래든",
-        "author": "D몬",
-        "description": "할렘가 출신의 아웃사이더 브랜든은 우연히 지금과 완전히 다른 세상으로 넘어가게 되고, 그곳에서 '올미어'를 만나게 된다. 자신의 세상에선 사람인게 당연했지만 다른 세상에서는 스스로가 사람임을 증명해야만 하는 처지가 된 브랜든은 혼란에 빠지게 되는데... <데이빗>,<에리타> d몬작가 '사람 3부작' 마지막 이야기.",
-        "favcount": "관심 100만 +",
-        "isUpdate": true,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/765470/thumbnail/thumbnail_IMAG19_e4b89c99-6b8b-4b4e-99e8-a70352223a40.jpg"
-      },
-      {
-        "id": 8,
-        "title": "빌런투킬",
-        "author": "퓨핀 / 은지",
-        "description": "동료를 살해했다는 억울한 누명을 쓰고 사망한 카시안. 모든 게 끝이라고 생각한 순간. 그의 영혼은 어느 소년의 몸에 빙의되어 빌런으로 각성한다. 선망의 대상이자 대중의 지지를 받던 탑클래스 싸이커였던 그가 하루아침에 빌런이 되다니! 그는 자신의 운명을 받아들이기 힘들다. 복수와 분노! 거듭되는 파괴적인 충동으로 이성까지 잠식당할 위기에 처하지만, 신비로운 존재 모로스의 도움과 초인적인 자제력으로 이를 극복해 낸다. “대재앙급이라고?! 어디.. 화끈하게 터트려 볼까!!”",
-        "favcount": "관심 100만 +",
-        "isUpdate": true,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/765156/thumbnail/thumbnail_IMAG19_235deb51-11a2-47d3-9688-edbee76e3b9c.jpg"
-      }
-    ],
-    "webtoons": [
-      {
-        "id": 0,
-        "title": "프리드로우",
-        "author": "전선욱",
-        "description": "한태성을 중심으로 벌어지는   다양한 청춘들의 스펙타클한 학원 시트콤 드라마",
-        "favcount": "관심 100만 +",
-        "isUpdate": true,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/597447/thumbnail/title_thumbnail_20150323153418_t220x202.jpg"
-      },
-      {
-        "id": 1,
-        "title": "호랑이형님",
-        "author": "이상규",
-        "description": "신비한 힘을 가진 아이를 이용하여 세상을 지배하려는 반인반수 흰눈썹!   그리고 얼떨결에 아이의 보호자가 된 괴물호랑이 빠르와 착호갑사 지망생 가우리! 이제 힘을 합쳐 흰눈썹으로부터 아이와 세상을 지켜라!!!",
-        "favcount": "관심 50만 +",
-        "isUpdate": true,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/650305/thumbnail/title_thumbnail_20161209212128_t220x202.jpg"
-      },
-      {
-        "id": 2,
-        "title": "모죠의 일지",
-        "author": "모죠",
-        "description": "소신있는 취향과 내성적인 성향. 훌륭한 집순이 모죠의 은밀한 비밀들",
-        "favcount": "관심 10만 +",
-        "isUpdate": false,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/728015/thumbnail/thumbnail_IMAG19_eefd3fab-24d0-4734-a4e7-d9cdd3de742b.jpg"
-      },
-      {
-        "id": 3,
-        "title": "취사병 전설이 되다",
-        "author": "제이로빈 / 이진수",
-        "description": "대한민국 대표 흙수저, 강성재.  불안하기만 한 군생활에 한줄기 빛처럼 다가온 전설의 취사병이 될 기회!",
-        "favcount": "관심 10만 +",
-        "isUpdate": false,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/727188/thumbnail/thumbnail_IMAG19_146eed17-e1b6-475c-a4f9-ad70a7bf72db.jpg"
-      },
-      {
-        "id": 4,
-        "title": "힙한남자",
-        "author": "혜니",
-        "description": "국내 요가복 회사 2위 ‘립앤힙’의 대표인 성가은, 그토록 찾던 물복반 딱복반 엉덩이를 만나다..?! <구구까까> 혜니 작가의 신작!",
-        "favcount": "관심 10만 +",
-        "isUpdate": true,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/758619/thumbnail/thumbnail_IMAG19_faf130be-73f1-4380-8a28-c6909f0ab915.jpg"
-      },
-      {
-        "id": 5,
-        "title": "욕망일기",
-        "author": "김주인",
-        "description": "<외모지상주의> <인생존망> <싸움독학>의 뒤를 이은 박태준 작가가 참여한 신작! 인간이라면 누구나 가질 법한 욕망,  그리고 그 끝은 과연 행복일까, 파멸일까... 그가 그리는 새로운 세계로 빠져들어가보자",
-        "favcount": "관심 10만 +",
-        "isUpdate": false,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/762071/thumbnail/thumbnail_IMAG19_e0cf404e-9522-4fd6-895b-224ba5fd7f85.jpg"
-      },
-      {
-        "id": 6,
-        "title": "율리",
-        "author": "돌배",
-        "description": "신의 사원의 대도서관 관장인 쿠무치는 한 노예시장에서 율리라는 이름의 아이를 데려온다.  사원의 일꾼 대신 율리에게 맡겨진 임무는 이웃나라로 함께 가서 사원의 지도자인 '하늘스승'의 후계자를 찾아 데려오는 것이다.  쿠무치와 율리는 신의 사원을 나와 동쪽으로 떠나는 먼 길을 떠난다.  두 사람은 여행길에 여러 다양한 사람들을 만나고 여러 나라를 거쳐 여행한다.  그리고 그들은 드디어 찾고 있었던 '작은하늘스승'을 만나게 된다.",
-        "favcount": "관심 100만 +",
-        "isUpdate": true,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/765470/thumbnail/thumbnail_IMAG19_e4b89c99-6b8b-4b4e-99e8-a70352223a40.jpg"
-      },
-      {
-        "id": 7,
-        "title": "브래든",
-        "author": "D몬",
-        "description": "할렘가 출신의 아웃사이더 브랜든은 우연히 지금과 완전히 다른 세상으로 넘어가게 되고, 그곳에서 '올미어'를 만나게 된다. 자신의 세상에선 사람인게 당연했지만 다른 세상에서는 스스로가 사람임을 증명해야만 하는 처지가 된 브랜든은 혼란에 빠지게 되는데... <데이빗>,<에리타> d몬작가 '사람 3부작' 마지막 이야기.",
-        "favcount": "관심 100만 +",
-        "isUpdate": true,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/765470/thumbnail/thumbnail_IMAG19_e4b89c99-6b8b-4b4e-99e8-a70352223a40.jpg"
-      },
-      {
-        "id": 8,
-        "title": "빌런투킬",
-        "author": "퓨핀 / 은지",
-        "description": "동료를 살해했다는 억울한 누명을 쓰고 사망한 카시안. 모든 게 끝이라고 생각한 순간. 그의 영혼은 어느 소년의 몸에 빙의되어 빌런으로 각성한다. 선망의 대상이자 대중의 지지를 받던 탑클래스 싸이커였던 그가 하루아침에 빌런이 되다니! 그는 자신의 운명을 받아들이기 힘들다. 복수와 분노! 거듭되는 파괴적인 충동으로 이성까지 잠식당할 위기에 처하지만, 신비로운 존재 모로스의 도움과 초인적인 자제력으로 이를 극복해 낸다. “대재앙급이라고?! 어디.. 화끈하게 터트려 볼까!!”",
-        "favcount": "관심 100만 +",
-        "isUpdate": true,
-        "imageUrl": "https://image-comic.pstatic.net/webtoon/765156/thumbnail/thumbnail_IMAG19_235deb51-11a2-47d3-9688-edbee76e3b9c.jpg"
-      }
-    ]
-  }
+  "new": [
+    {
+      "id": 9,
+      "title": "Lookism",
+      "author": "Taejun Pak",
+      "description": "Daniel is an unattractive loner who wakes up in a different body. Now tall, handsome, and cooler than ever in his new form, Daniel aims to achieve everything he couldn't before. How far will he go to keep his body... and his secrets?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/09.jpg",
+      "bg": "http://ejin518.cafe24.com/img/webtoon/new01.png",
+      "banner": "http://ejin518.cafe24.com/img/webtoon/bg03.jpg"
+    },
+    {
+      "id": 15,
+      "title": "True Beauty",
+      "author": "Yaongyi",
+      "description": "After binge-watching beauty videos online, a shy comic book fan masters the art of makeup and sees her social standing skyrocket as she becomes her school’s prettiest pretty girl overnight. But will her elite status be short-lived? How long can she keep her real self a secret? And what about that cute boy who knows her secret?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/15.jpg",
+      "bg": "http://ejin518.cafe24.com/img/webtoon/new02.png",
+      "banner": "http://ejin518.cafe24.com/img/webtoon/bg02.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Remarried Empress",
+      "author": "Alphatart / Sumpul",
+      "description": "Navier Ellie Trovi was an empress perfect in every way -- intelligent, courageous, and socially adept. She was kind to her subjects and devoted to her husband. Navier was perfectly content to live the rest of her days as the wise empress of the Eastern Empire. That is, until her husband brought home a mistress and demanded a divorce. “I accept this divorce… And I request an approval of my remarriage.” In a shocking twist, Navier remarries another emperor and retains her title and childhood dream as empress. But just how did everything unfold?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/10.jpg",
+      "bg": "http://ejin518.cafe24.com/img/webtoon/new03.png",
+      "banner": "http://ejin518.cafe24.com/img/webtoon/bg01.jpg"
+    }
+  ],
+  "best": [
+    {
+      "id": 14,
+      "title": "The God of High School",
+      "author": "Yongje Park",
+      "description": "Mori Jin is a high school student and Taekwondo specialist who enters 'The God of High School,' a fighting tournament that promises the winner anything they want. What began as a competition to seek out the best high school fighter soon reveals itself to be part of a much greater plot that goes beyond Mori's wildest imagination. What will he give to become a true god?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/best14.jpg"
+    }
+  ],
+  "popular": [
+    {
+      "id": 19,
+      "title": "Noblesse",
+      "author": "Jeho Son / Kwangsu Lee",
+      "description": "Rai wakes up from an 820-year-long sleep and starts his new life as a student in a high school founded by his loyal servant, Frankenstein. But his peaceful days with other human students are soon interrupted by mysterious attackers known as the 'Unions.'",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/19.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Tower of God",
+      "author": "SIU",
+      "description": "What do you desire? Money and wealth? Honor and pride? Authority and power? Revenge? Or something that transcends them all? Whatever you desire—it's here.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/11.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Yumi's Cells",
+      "author": "Donggeon Lee",
+      "description": "A story of Yumi and her brain cells.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/13.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Sweet Home",
+      "author": "Carnby Kim / Youngchan Hwang",
+      "description": "After an unexpected family tragedy, a reclusive high school student is forced to leave his home -- only to face something much scarier: a reality where monsters are trying to wipe out humanity. Now he must fight alongside a handful of reluctant heroes to try and save the world before it’s too late. Now a Netflix Original Series.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/23.jpg"
+    }
+  ],
+  "recommend": [
+    {
+      "id": 24,
+      "title": "Taste of Illness",
+      "author": "Ilkwon Ha",
+      "description": "Not having any friends is bad enough, but being swallowed by mysterious black sludge in the middle of class? The worst. Yijun is no stranger to solitude, until a school project plants the seed for a delicate bond with another loner, Suni. But friendship is a frustrating puzzle for those who are used to being alone, especially when one of them claims to control a black goo that only turns hostile when the host is gripped by anxiety. Will Yijun and Suni be able to open up and make something of their budding friendship?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/24.jpg"
+    }
+  ],
+  "webtoons": [
+    {
+      "id": 0,
+      "title": "Death's Game",
+      "author": "Lee Wonsik / GGULCHAN",
+      "description": "He’s perennially unemployed, his ex-girlfriend has moved on, and he’s just lost all his life savings to a bitcoin scam. Burdened by societal pressures, Yijae Choi decides to take his own life. Insulted by his flippant attitude towards dying, Death comes to punish him with her game: he must experience death over and over again through 13 other lives. But if he can find a way to survive the imminent death coming for these lives, he gets to live out their lifetime. His life was a bust, but what about the lives of others?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/0.jpg"
+    },
+    {
+      "id": 1,
+      "title": "SAVE ME",
+      "author": "Big Hit Ent. / LICO",
+      "description": "Seven boys. Best friends. Their fates intertwined through the good times together, but also the tough times, as they have gone their separate ways and suffered greatly as a result. When all is almost lost for these boys, one is given a special chance to go back in time and help his friends fix the mistakes that led them down this path. He’ll do anything to save them, but can he? Or is he too late?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/01.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Penguin Loves Mev",
+      "author": "Penguin",
+      "description": "Penguin is a Korean cartoonist who got married to an English man Mev. Sometimes they are faced with cultural differences, but they never fail to put a smile on each other's face. Follow their love story with this comic!",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/02.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Romance 101",
+      "author": "Namsoo",
+      "description": "Bareum’s planner might be full, but one thing she desperately needs in her diary is a date. When she is lured into joining a programming club by her friend’s hot coworker, it looks like there might be hope for her. But will her inexperience lead to her downfall? And why does she keep running into his bad-tempered friend instead?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/03.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Boxer",
+      "author": "JH",
+      "description": "You’ve got the raw talent. Or you’re the underdog. But do you have the heart? Do you have what it takes? Let’s see what you’re made of. The real fight starts now!",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/04.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Mosquito Wars",
+      "author": "JH",
+      "description": "One hundred years after mosquitoes have evolved into the strongest predators on Earth, only 5,000 humans remain. Mankind’s last hope -- an elite team of special soldiers -- races to save the day. Will they obtain the secret research that may give humanity a fighting chance against the mosquitoes before it's too late?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/05.jpg"
+    },
+    {
+      "id": 6,
+      "title": "It's Mine",
+      "author": "LuckS",
+      "description": "There’s nothing that Yohan Do doesn’t know about his crush, Dajeong. Where she sits in class, works after school... and even where she lives. But unable to approach her, he watches her every move from afar and will do anything to protect her. Anything.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/06.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Mystical",
+      "author": "VAN.J",
+      "description": "Garam has always loved to draw, but his dreams of being an artist have been on hold ever since his mother passed away. Wanting to become more independent and focus on his art, he moves into his grandmother's empty house by the ocean. There, he meets his greatest muse: a mystical water creature with no memories of her past. Now it’s up to Garam to help her uncover what she has forgotten.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/07.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Wind Breaker",
+      "author": "Yongseok Jo",
+      "description": "Jay's the perfect student. He's got straight As and he's the student body president. But after being coerced into joining the school's biking team, the Hummingbird Crew, he discovers a whole new world outside of studying. What new adventures will he face outside the comfort of his textbooks?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/08.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Lookism",
+      "author": "Taejun Pak",
+      "description": "Daniel is an unattractive loner who wakes up in a different body. Now tall, handsome, and cooler than ever in his new form, Daniel aims to achieve everything he couldn't before. How far will he go to keep his body... and his secrets?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/09.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Remarried Empress",
+      "author": "Alphatart / Sumpul",
+      "description": "Navier Ellie Trovi was an empress perfect in every way -- intelligent, courageous, and socially adept. She was kind to her subjects and devoted to her husband. Navier was perfectly content to live the rest of her days as the wise empress of the Eastern Empire. That is, until her husband brought home a mistress and demanded a divorce. “I accept this divorce… And I request an approval of my remarriage.” In a shocking twist, Navier remarries another emperor and retains her title and childhood dream as empress. But just how did everything unfold?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Tower of God",
+      "author": "SIU",
+      "description": "What do you desire? Money and wealth? Honor and pride? Authority and power? Revenge? Or something that transcends them all? Whatever you desire—it's here.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Days of Hana",
+      "author": "Seokwoo",
+      "description": "Friends since childhood, Haru and Hana do not have a typical relationship -- Hana is human, and Haru is her werewolf who must protect her. Although werewolves are starting to have more rights, they are still seen as exotic beasts by society. As the two fall in love, what will be their fate?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Yumi's Cells",
+      "author": "Donggeon Lee",
+      "description": "A story of Yumi and her brain cells.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "The God of High School",
+      "author": "Yongje Park",
+      "description": "Mori Jin is a high school student and Taekwondo specialist who enters 'The God of High School,' a fighting tournament that promises the winner anything they want. What began as a competition to seek out the best high school fighter soon reveals itself to be part of a much greater plot that goes beyond Mori's wildest imagination. What will he give to become a true god?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "True Beauty",
+      "author": "Yaongyi",
+      "description": "After binge-watching beauty videos online, a shy comic book fan masters the art of makeup and sees her social standing skyrocket as she becomes her school’s prettiest pretty girl overnight. But will her elite status be short-lived? How long can she keep her real self a secret? And what about that cute boy who knows her secret?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Duty After School",
+      "author": "Ilkwon Ha",
+      "description": "What would you do if your school's extracurricular activity was a mandatory military service amidst an actual war? A class of students is turned into a platoon of soldiers to fight against unknown slime-like objects.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "The Sound of Your Heart",
+      "author": "Cho Seok",
+      "description": "While it may seem like a mere depiction of everyday life, The Sound of Your Heart is a comedy filled to the brim with wit, sarcasm, and parody. It gives no regard for the probable or realistic- it is a series of absurd situations that is sure to get a laugh out of every reader willing to suspend their sense of reality.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "A Bittersweet Life",
+      "author": "Donggeon Lee",
+      "description": "A collection of sweet stories about couples and singles, office workers and unemployed people. But be warned: there’s more than a touch of bitterness here.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/18.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Noblesse",
+      "author": "Jeho Son / Kwangsu Lee",
+      "description": "Rai wakes up from an 820-year-long sleep and starts his new life as a student in a high school founded by his loyal servant, Frankenstein. But his peaceful days with other human students are soon interrupted by mysterious attackers known as the 'Unions.'",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/19.jpg"
+    },
+    {
+      "id": 20,
+      "title": "KILLMAX",
+      "author": "Kennycomics(Paul Jun) / SilentMaru",
+      "description": "Born into a bloodline of witches, Max is forced into a life on the run from the witch hunters. But when she unknowingly finds a way to use her magic, her life changes into something she could have ever imagined.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/20.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Nobody Here",
+      "author": "CheriArtt",
+      "description": "When Grace talks about what she wants to study in college, she was strongly scolded by her mother, something that had never happened to her in the last 10 years. Grace with fear, she decides to fix this very important relationship, but the next day she does not find her mother, or anyone in her city, and in the world? With the motivation to do the 'right' thing, she decides to seek out more people. She ends up finding out to her classmate that has another definition of 'correct.'",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/21.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Hellper",
+      "author": "SAKK",
+      "description": "When the leader of a biker gang dies and finds himself with a ticket to Hell, he sets out on a quest to change his fate. He needs to collect 100 black bracelets of other condemned souls to qualify for reincarnation.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/22.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Sweet Home",
+      "author": "Carnby Kim / Youngchan Hwang",
+      "description": "After an unexpected family tragedy, a reclusive high school student is forced to leave his home -- only to face something much scarier: a reality where monsters are trying to wipe out humanity. Now he must fight alongside a handful of reluctant heroes to try and save the world before it’s too late. Now a Netflix Original Series.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/23.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Taste of Illness",
+      "author": "Ilkwon Ha",
+      "description": "Not having any friends is bad enough, but being swallowed by mysterious black sludge in the middle of class? The worst. Yijun is no stranger to solitude, until a school project plants the seed for a delicate bond with another loner, Suni. But friendship is a frustrating puzzle for those who are used to being alone, especially when one of them claims to control a black goo that only turns hostile when the host is gripped by anxiety. Will Yijun and Suni be able to open up and make something of their budding friendship?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/24.jpg"
+    }
+  ],
+  "mon": [
+    {
+      "id": 8,
+      "title": "Wind Breaker",
+      "author": "Yongseok Jo",
+      "description": "Jay's the perfect student. He's got straight As and he's the student body president. But after being coerced into joining the school's biking team, the Hummingbird Crew, he discovers a whole new world outside of studying. What new adventures will he face outside the comfort of his textbooks?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/08.jpg"
+    },
+    {
+      "id": 1,
+      "title": "SAVE ME",
+      "author": "Big Hit Ent. / LICO",
+      "description": "Seven boys. Best friends. Their fates intertwined through the good times together, but also the tough times, as they have gone their separate ways and suffered greatly as a result. When all is almost lost for these boys, one is given a special chance to go back in time and help his friends fix the mistakes that led them down this path. He’ll do anything to save them, but can he? Or is he too late?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/01.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Days of Hana",
+      "author": "Seokwoo",
+      "description": "Friends since childhood, Haru and Hana do not have a typical relationship -- Hana is human, and Haru is her werewolf who must protect her. Although werewolves are starting to have more rights, they are still seen as exotic beasts by society. As the two fall in love, what will be their fate?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/12.jpg"
+    },
+    {
+      "id": 17,
+      "title": "The Sound of Your Heart",
+      "author": "Cho Seok",
+      "description": "While it may seem like a mere depiction of everyday life, The Sound of Your Heart is a comedy filled to the brim with wit, sarcasm, and parody. It gives no regard for the probable or realistic- it is a series of absurd situations that is sure to get a laugh out of every reader willing to suspend their sense of reality.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/17.jpg"
+    }
+  ],
+  "tues": [
+    {
+      "id": 6,
+      "title": "It's Mine",
+      "author": "LuckS",
+      "description": "There’s nothing that Yohan Do doesn’t know about his crush, Dajeong. Where she sits in class, works after school... and even where she lives. But unable to approach her, he watches her every move from afar and will do anything to protect her. Anything.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/06.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Mystical",
+      "author": "VAN.J",
+      "description": "Garam has always loved to draw, but his dreams of being an artist have been on hold ever since his mother passed away. Wanting to become more independent and focus on his art, he moves into his grandmother's empty house by the ocean. There, he meets his greatest muse: a mystical water creature with no memories of her past. Now it’s up to Garam to help her uncover what she has forgotten.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/07.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Yumi's Cells",
+      "author": "Donggeon Lee",
+      "description": "A story of Yumi and her brain cells.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/13.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Taste of Illness",
+      "author": "Ilkwon Ha",
+      "description": "Not having any friends is bad enough, but being swallowed by mysterious black sludge in the middle of class? The worst. Yijun is no stranger to solitude, until a school project plants the seed for a delicate bond with another loner, Suni. But friendship is a frustrating puzzle for those who are used to being alone, especially when one of them claims to control a black goo that only turns hostile when the host is gripped by anxiety. Will Yijun and Suni be able to open up and make something of their budding friendship?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/24.jpg"
+    }
+  ],
+  "wends": [
+    {
+      "id": 3,
+      "title": "Romance 101",
+      "author": "Namsoo",
+      "description": "Bareum’s planner might be full, but one thing she desperately needs in her diary is a date. When she is lured into joining a programming club by her friend’s hot coworker, it looks like there might be hope for her. But will her inexperience lead to her downfall? And why does she keep running into his bad-tempered friend instead?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/03.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Duty After School",
+      "author": "Ilkwon Ha",
+      "description": "What would you do if your school's extracurricular activity was a mandatory military service amidst an actual war? A class of students is turned into a platoon of soldiers to fight against unknown slime-like objects.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/16.jpg"
+    },
+    {
+      "id": 6,
+      "title": "It's Mine",
+      "author": "LuckS",
+      "description": "There’s nothing that Yohan Do doesn’t know about his crush, Dajeong. Where she sits in class, works after school... and even where she lives. But unable to approach her, he watches her every move from afar and will do anything to protect her. Anything.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/06.jpg"
+    },
+    {
+      "id": 18,
+      "title": "A Bittersweet Life",
+      "author": "Donggeon Lee",
+      "description": "A collection of sweet stories about couples and singles, office workers and unemployed people. But be warned: there’s more than a touch of bitterness here.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/18.jpg"
+    }
+  ],
+  "thirs": [
+    {
+      "id": 23,
+      "title": "Sweet Home",
+      "author": "Carnby Kim / Youngchan Hwang",
+      "description": "After an unexpected family tragedy, a reclusive high school student is forced to leave his home -- only to face something much scarier: a reality where monsters are trying to wipe out humanity. Now he must fight alongside a handful of reluctant heroes to try and save the world before it’s too late. Now a Netflix Original Series.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/23.jpg"
+    },
+    {
+      "id": 14,
+      "title": "The God of High School",
+      "author": "Yongje Park",
+      "description": "Mori Jin is a high school student and Taekwondo specialist who enters 'The God of High School,' a fighting tournament that promises the winner anything they want. What began as a competition to seek out the best high school fighter soon reveals itself to be part of a much greater plot that goes beyond Mori's wildest imagination. What will he give to become a true god?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "True Beauty",
+      "author": "Yaongyi",
+      "description": "After binge-watching beauty videos online, a shy comic book fan masters the art of makeup and sees her social standing skyrocket as she becomes her school’s prettiest pretty girl overnight. But will her elite status be short-lived? How long can she keep her real self a secret? And what about that cute boy who knows her secret?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/15.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Noblesse",
+      "author": "Jeho Son / Kwangsu Lee",
+      "description": "Rai wakes up from an 820-year-long sleep and starts his new life as a student in a high school founded by his loyal servant, Frankenstein. But his peaceful days with other human students are soon interrupted by mysterious attackers known as the 'Unions.'",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/19.jpg"
+    }
+  ],
+  "fri": [
+    {
+      "id": 4,
+      "title": "The Boxer",
+      "author": "JH",
+      "description": "You’ve got the raw talent. Or you’re the underdog. But do you have the heart? Do you have what it takes? Let’s see what you’re made of. The real fight starts now!",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/04.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Penguin Loves Mev",
+      "author": "Penguin",
+      "description": "Penguin is a Korean cartoonist who got married to an English man Mev. Sometimes they are faced with cultural differences, but they never fail to put a smile on each other's face. Follow their love story with this comic!",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/02.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Lookism",
+      "author": "Taejun Pak",
+      "description": "Daniel is an unattractive loner who wakes up in a different body. Now tall, handsome, and cooler than ever in his new form, Daniel aims to achieve everything he couldn't before. How far will he go to keep his body... and his secrets?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/09.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Remarried Empress",
+      "author": "Alphatart / Sumpul",
+      "description": "Navier Ellie Trovi was an empress perfect in every way -- intelligent, courageous, and socially adept. She was kind to her subjects and devoted to her husband. Navier was perfectly content to live the rest of her days as the wise empress of the Eastern Empire. That is, until her husband brought home a mistress and demanded a divorce. “I accept this divorce… And I request an approval of my remarriage.” In a shocking twist, Navier remarries another emperor and retains her title and childhood dream as empress. But just how did everything unfold?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Tower of God",
+      "author": "SIU",
+      "description": "What do you desire? Money and wealth? Honor and pride? Authority and power? Revenge? Or something that transcends them all? Whatever you desire—it's here.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/11.jpg"
+    }
+  ],
+  "sat": [
+    {
+      "id": 0,
+      "title": "Death's Game",
+      "author": "Lee Wonsik / GGULCHAN",
+      "description": "He’s perennially unemployed, his ex-girlfriend has moved on, and he’s just lost all his life savings to a bitcoin scam. Burdened by societal pressures, Yijae Choi decides to take his own life. Insulted by his flippant attitude towards dying, Death comes to punish him with her game: he must experience death over and over again through 13 other lives. But if he can find a way to survive the imminent death coming for these lives, he gets to live out their lifetime. His life was a bust, but what about the lives of others?",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/0.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Hellper",
+      "author": "SAKK",
+      "description": "When the leader of a biker gang dies and finds himself with a ticket to Hell, he sets out on a quest to change his fate. He needs to collect 100 black bracelets of other condemned souls to qualify for reincarnation.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/22.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Sweet Home",
+      "author": "Carnby Kim / Youngchan Hwang",
+      "description": "After an unexpected family tragedy, a reclusive high school student is forced to leave his home -- only to face something much scarier: a reality where monsters are trying to wipe out humanity. Now he must fight alongside a handful of reluctant heroes to try and save the world before it’s too late. Now a Netflix Original Series.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/23.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Nobody Here",
+      "author": "CheriArtt",
+      "description": "When Grace talks about what she wants to study in college, she was strongly scolded by her mother, something that had never happened to her in the last 10 years. Grace with fear, she decides to fix this very important relationship, but the next day she does not find her mother, or anyone in her city, and in the world? With the motivation to do the 'right' thing, she decides to seek out more people. She ends up finding out to her classmate that has another definition of 'correct.'",
+      "favcount": "LIKE 10M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/21.jpg"
+    }
+  ],
+  "sun": [
+    {
+      "id": 5,
+      "title": "Mosquito Wars",
+      "author": "JH",
+      "description": "One hundred years after mosquitoes have evolved into the strongest predators on Earth, only 5,000 humans remain. Mankind’s last hope -- an elite team of special soldiers -- races to save the day. Will they obtain the secret research that may give humanity a fighting chance against the mosquitoes before it's too late?",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/05.jpg"
+    },
+    {
+      "id": 20,
+      "title": "KILLMAX",
+      "author": "Kennycomics(Paul Jun) / SilentMaru",
+      "description": "Born into a bloodline of witches, Max is forced into a life on the run from the witch hunters. But when she unknowingly finds a way to use her magic, her life changes into something she could have ever imagined.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": true,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/20.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Tower of God",
+      "author": "SIU",
+      "description": "What do you desire? Money and wealth? Honor and pride? Authority and power? Revenge? Or something that transcends them all? Whatever you desire—it's here.",
+      "favcount": "LIKE 100M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/11.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Hellper",
+      "author": "SAKK",
+      "description": "When the leader of a biker gang dies and finds himself with a ticket to Hell, he sets out on a quest to change his fate. He needs to collect 100 black bracelets of other condemned souls to qualify for reincarnation.",
+      "favcount": "LIKE 10M +",
+      "isUpdate": false,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/22.jpg"
+    }
+  ],
+  "image": [
+    {
+      "id": 20,
+      "imageUrl": "http://ejin518.cafe24.com/img/webtoon/banner01.png"
+    }
+  ]
+}

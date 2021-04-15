@@ -2,34 +2,39 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import { ROUTES } from '../../../constants'
+
 const Wrapper = styled.li`
   float: left;
   width: calc(100% / 4);
   padding: 5px;
   box-sizing: border-box;
   @media (max-width: 768px) {
-    width: calc(100% / 3);
+    width: 50%;
   }
 `
-const ImgWrap = styled.span`
+const Container = styled(Link)`
+  position: relative;
   display: block;
   width: 100%;
+  height: 100%;
+  border: 1px solid #eaeaea;
+  line-height: 0;
 `
 
 const Image = styled.img`
-  margin-top: 15px;
   width: 100%;
-  border-radius: 3px;
 `
 const Discript = styled.div`
-  padding: 10px 0;
+  padding: 10px 20px;
   height: 100px;
+  border-top: 5px solid #00dc64;
 `
 
 const Title = styled.h2`
   font-size: 18px;
   color: #000;
   font-weight: bold;
+  line-height: 1.5;
 `
 const Info = styled.p`
   font-size: 16px;
@@ -38,26 +43,17 @@ const Info = styled.p`
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  line-height: 1.5;
 `
-const Update = styled.em`
-  display: none;
-  ${({ on }) =>
-    on &&
-    `
-display:inline-block;
-background-color: #00d564;
-font-size:16px;
-font-weight:bold;
-color:#fff;
-border-radius:20px;
-padding: 3px 10px;
-margin-top:5px;
-`}
+const Fav = styled.span`
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #00dc64;
+  font-weight: bold;
 `
-const Container = styled(Link)`
-  position: relative;
-`
-function Webtoon({ webtoon }) {
+
+function FinishedWebtoon({ webtoon }) {
   const {
     id,
     title,
@@ -71,18 +67,15 @@ function Webtoon({ webtoon }) {
   return (
     <Wrapper>
       <Container to={`${ROUTES.WEBTOON.HOME}/${id}`}>
-        <ImgWrap>
-          <Image src={imageUrl} />
-        </ImgWrap>
+        <Image src={imageUrl} />
         <Discript>
           <Title>{title}</Title>
           <Info>{author}</Info>
-          <Info>{favcount}</Info>
-          <Update on={isUpdate === true}>UP</Update>
+          <Fav>{favcount}</Fav>
         </Discript>
       </Container>
     </Wrapper>
   )
 }
 
-export default Webtoon
+export default FinishedWebtoon
