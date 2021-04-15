@@ -1,7 +1,7 @@
 {
   "name": "210228",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm i => npm install 축약 -D => save-dev -s => save",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",

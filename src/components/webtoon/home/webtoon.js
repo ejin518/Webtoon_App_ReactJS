@@ -6,6 +6,7 @@ const Container = styled.div`
   overflow: hidden;
   box-sizing: border-box;
   display: inline-block;
+  cursor: pointer;
 `
 
 const Image = styled.img`

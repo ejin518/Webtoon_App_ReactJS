@@ -11,9 +11,8 @@ import WebtoonPage from './pages/webtoon'
 import { UserContextProvider } from './contexts/user-context'
 
 const Container = styled.div`
-  max-width: 720px;
-  margin: 0 auto;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 `
 
 function App() {

@@ -6,82 +6,82 @@ import { Link } from 'react-router-dom'
 import { ROUTES } from '../../../constants'
 
 const Wrapper = styled.div`
-  float: left;
-  width: calc(100% / 3);
-  height: 175px;
-  padding: 0px 5px;
-  overflow: hidden;
+  width: 100%;
   box-sizing: border-box;
   display: inline-block;
-  @media (max-width: 1110px) {
-    height: 15.76vw;
-  }
+  margin-top: 10px;
+  padding: 0 5px;
   @media (max-width: 768px) {
     width: 100%;
     margin-bottom: 10px;
-    height: 45.78vw;
   }
 `
 
 const Container = styled(Link)`
   position: relative;
   display: block;
-  width: 100%;
-  height: 100%;
+  line-height: 0;
+  &:hover {
+    background-color: unset;
+  }
 `
 
 const Image = styled.img`
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
+  border-radius: 2px;
 `
 
 const Info = styled.div`
-  position: absolute;
-  top: 20px;
-  right: 20px;
+  display: block;
   box-sizing: border-box;
+  border: 1px solid #222;
+  padding: 10px 5px;
+  border-top: 5px solid #ebce19;
 `
 
 const Title = styled.h2`
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  display: block;
-  font-size: 20px;
-  line-height: 20px;
+  color: #ebce19;
+  font-size: 16px;
   font-weight: bold;
-  color: #fff;
-  text-align: right;
-`
-const Author = styled.h3`
+  height: 1.4em;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
-  display: block;
-  font-size: 14px;
-  line-height: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  line-height: 1.4;
+  word-break: keep-all;
+`
+
+const Author = styled.p`
+  font-size: 12px;
+  font-weight: bold;
+  height: 1.4em;
+  overflow: hidden;
   color: #fff;
-  text-align: right;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  line-height: 1.4;
+  word-break: keep-all;
 `
 const Fav = styled.span`
   display: block;
-  margin-top: 50px;
-  font-size: 15px;
+  text-align: right;
+  font-size: 12px;
   font-weight: bold;
   color: #00dc64;
-  text-align: right;
+  margin-top: 10px;
+  line-height: 1.5;
 `
-
-function Webtoon({ webtoon }) {
-  const { id, banner, title, author, favcount } = webtoon
+function DayWebtoon({ webtoon }) {
+  const { id, imageUrl, title, author, favcount } = webtoon
 
   return (
     <Wrapper>
       <Container to={`${ROUTES.WEBTOON.HOME}/${id}`}>
-        <Image src={banner} />
+        <Image src={imageUrl} />
         <Info>
           <Title>{title}</Title>
           <Author>{author}</Author>
@@ -92,4 +92,4 @@ function Webtoon({ webtoon }) {
   )
 }
 
-export default Webtoon
+export default DayWebtoon

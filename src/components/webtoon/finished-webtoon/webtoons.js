@@ -1,28 +1,26 @@
 import React from 'react'
 import styled from 'styled-components'
-
 import { Link } from 'react-router-dom'
-
 import { ROUTES } from '../../../constants'
 
-const Wrapper = styled.div`
+const Wrapper = styled.li`
   float: left;
-  width: calc(100% / 3);
-  height: 175px;
-  padding: 0px 5px;
+  width: calc(100% / 4);
+  height: 250px;
+  padding: 0px 10px;
   overflow: hidden;
   box-sizing: border-box;
   display: inline-block;
+
   @media (max-width: 1110px) {
-    height: 15.76vw;
+    height: 22.52vw;
   }
   @media (max-width: 768px) {
-    width: 100%;
+    width: calc(100% / 2);
     margin-bottom: 10px;
-    height: 45.78vw;
+    height: 32.55vw;
   }
 `
-
 const Container = styled(Link)`
   position: relative;
   display: block;
@@ -30,6 +28,23 @@ const Container = styled(Link)`
   height: 100%;
 `
 
+const ImgWrap = styled.span`
+  display: block;
+  width: 100%;
+  height: calc(100% - 3px);
+  position: relative;
+  border: 1px solid #eaeaea;
+  &:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+  }
+`
 const Image = styled.img`
   position: absolute;
   top: 0;
@@ -37,56 +52,36 @@ const Image = styled.img`
   width: 100%;
   height: 100%;
 `
-
-const Info = styled.div`
+const Discript = styled.div`
   position: absolute;
-  top: 20px;
-  right: 20px;
-  box-sizing: border-box;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
 `
-
 const Title = styled.h2`
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  display: block;
   font-size: 20px;
-  line-height: 20px;
+  color: #fff;
+`
+const Author = styled.p`
+  font-size: 13px;
   font-weight: bold;
   color: #fff;
-  text-align: right;
-`
-const Author = styled.h3`
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  display: block;
-  font-size: 14px;
-  line-height: 20px;
-  color: #fff;
-  text-align: right;
-`
-const Fav = styled.span`
-  display: block;
-  margin-top: 50px;
-  font-size: 15px;
-  font-weight: bold;
-  color: #00dc64;
-  text-align: right;
+  margin-top: 5px;
 `
 
 function Webtoon({ webtoon }) {
-  const { id, banner, title, author, favcount } = webtoon
+  const { id, title, author, description, favcount, imageUrl } = webtoon
 
   return (
     <Wrapper>
       <Container to={`${ROUTES.WEBTOON.HOME}/${id}`}>
-        <Image src={banner} />
-        <Info>
+        <ImgWrap>
+          <Image src={imageUrl} />
+        </ImgWrap>
+        <Discript>
           <Title>{title}</Title>
           <Author>{author}</Author>
-          <Fav>{favcount}</Fav>
-        </Info>
+        </Discript>
       </Container>
     </Wrapper>
   )

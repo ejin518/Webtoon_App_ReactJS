@@ -1,7 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-
 import { useUserContext } from '../../contexts/user-context'
+import Header from '../../components/webtoon/header'
+import Footer from '../../components/webtoon/footer'
+import styled from 'styled-components'
+
+const Wrap = styled.div`
+  max-width: 1110px;
+  width: 100%;
+  margin: 45px auto 0;
+`
 
 function DetailPage() {
   const { id } = useParams()
@@ -43,10 +51,13 @@ function DetailPage() {
   const { title, imageUrl } = webtoon
 
   return (
-    <div>
+    <Wrap>
+      <Header />
       <img src={imageUrl} />
       <h2>{title}</h2>
-    </div>
+      <h2>{title}</h2>
+      <Footer />
+    </Wrap>
   )
 }
 

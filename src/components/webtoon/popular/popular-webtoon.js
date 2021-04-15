@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 
-import Webtoon from './webtoon'
+import Webtoon from './webtoons'
 
 const Wrapper = styled.div`
-  max-width: 960px;
+  max-width: 1110px;
   width: 100%;
   margin: 20px auto 0;
 `
@@ -32,7 +32,7 @@ function WebtoonList() {
 
   useEffect(() => {
     const fetchWebtoonList = async () => {
-      const response = await fetch('http://localhost:3000/webtoons')
+      const response = await fetch('http://localhost:3000/popular')
       const data = await response.json()
 
       setWebtoons(data)
@@ -44,7 +44,7 @@ function WebtoonList() {
   return (
     <Wrapper>
       <Title>
-        전체<Green>웹툰</Green>
+        POPULAR<Green> WEBTOONS</Green>
       </Title>
       <Container>
         {webtoons.map((webtoon) => {

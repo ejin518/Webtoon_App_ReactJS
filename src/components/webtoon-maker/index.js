@@ -1,6 +1,13 @@
 import React, { useState } from 'react'
+import styled from 'styled-components'
 import Form from './form'
 import Webtoon from './webtoon'
+
+const Container = styled.div`
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 45px;
+`
 
 function WebtoonMaker() {
   const [webtoons, setWebtoons] = useState([
@@ -24,13 +31,13 @@ function WebtoonMaker() {
     setWebtoons([...webtoons, webtoon])
   }
   return (
-    <div>
+    <Container>
       <Form onAddWebtoon={handleAddWebtoon} />
 
       {webtoons.map((webtoon, index) => {
         return <Webtoon key={index} webtoon={webtoon} /> //props
       })}
-    </div>
+    </Container>
   )
 }
 
