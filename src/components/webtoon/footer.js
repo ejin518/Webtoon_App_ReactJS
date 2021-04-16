@@ -15,7 +15,7 @@ const H4 = styled.h4`
 function Footer() {
   return (
     <Wrap>
-      <H4>© Hyein2021</H4>
+      <H4>Webtoon2021 by Hyein</H4>
     </Wrap>
   )
 }

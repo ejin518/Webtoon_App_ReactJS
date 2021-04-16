@@ -74,6 +74,9 @@ const Fav = styled.span`
   color: #00dc64;
   margin-top: 10px;
   line-height: 1.5;
+  @media (max-width: 786px) {
+    display: none;
+  }
 `
 function DayWebtoon({ webtoon }) {
   const { id, imageUrl, title, author, favcount } = webtoon

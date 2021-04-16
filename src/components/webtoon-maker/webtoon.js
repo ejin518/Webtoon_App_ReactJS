@@ -7,6 +7,10 @@ const Container = styled.div`
   background-color: #f9f9fc;
   display: inline-block;
   margin: 50px 10px;
+  @media (max-width: 600px) {
+    display: block;
+    margin: 10px 0;
+  }
 `
 const Image = styled.img`
   margin-top: 15px;
@@ -15,9 +19,14 @@ const Image = styled.img`
 const Tit01 = styled.h3`
   color: #000;
   margin: 0;
+  font-weight: bold;
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
 `
 const SpanG = styled.span`
   color: #19ce60;
+  font-weight: bold;
 `
 const DescriptDiv = styled.div`
   margin: 20px 0;

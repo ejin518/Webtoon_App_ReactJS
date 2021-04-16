@@ -22,7 +22,7 @@ function WebtoonMaker() {
       title: 'Webtoon 2',
       author: 'Author',
       imageUrl:
-        'https://image-comic.pstatic.net/webtoon/662774/thumbnail/thumbnail_IMAG19_8d97e971-103f-4c59-8cfc-5394dcda9256.jpg',
+        'https://image-comic.pstatic.net/webtoon/728015/thumbnail/thumbnail_IMAG19_eefd3fab-24d0-4734-a4e7-d9cdd3de742b.jpg',
       description: 'Descript',
     },
   ])
