@@ -6,7 +6,7 @@ const Container = styled.div`
   border: 1px solid #ebebeb;
   background-color: #f9f9fc;
   display: inline-block;
-  margin: 10px;
+  margin: 50px 10px;
 `
 const Image = styled.img`
   margin-top: 15px;
@@ -45,7 +45,7 @@ function Webtoon({ webtoon }) {
   return (
     <Container>
       <Tit01>
-        <SpanG>새로운</SpanG> 베스트 도전만화
+        New <SpanG>Webtoon</SpanG>
       </Tit01>
       <Image src={imageUrl} />
       <DescriptDiv>
