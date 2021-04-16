@@ -12,18 +12,18 @@ const Container = styled.div`
 function WebtoonMaker() {
   const [webtoons, setWebtoons] = useState([
     {
-      title: '웹툰 1',
-      author: '웹툰 1 작가',
+      title: 'Webtoon 1',
+      author: 'Author',
       imageUrl:
         'https://image-comic.pstatic.net/webtoon/662774/thumbnail/thumbnail_IMAG19_8d97e971-103f-4c59-8cfc-5394dcda9256.jpg',
-      description: '웹툰 1 설명',
+      description: 'Descript',
     },
     {
-      title: '웹툰 2',
-      author: '웹툰 2 작가',
+      title: 'Webtoon 2',
+      author: 'Author',
       imageUrl:
-        'https://image-comic.pstatic.net/webtoon/662774/thumbnail/thumbnail_IMAG19_8d97e971-103f-4c59-8cfc-5394dcda9256.jpg',
-      description: '웹툰 2 설명',
+        'https://image-comic.pstatic.net/webtoon/728015/thumbnail/thumbnail_IMAG19_eefd3fab-24d0-4734-a4e7-d9cdd3de742b.jpg',
+      description: 'Descript',
     },
   ])
 

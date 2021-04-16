@@ -13,9 +13,21 @@ const Wrap = styled.div`
   background: #f5f6f7;
   padding: 30px 20px;
 `
+const Title = styled.h2`
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+`
+const Green = styled.span`
+  color: #00d564;
+  font-weight: bold;
+`
 const Ul = styled.ul`
   width: 100%;
   overflow: hidden;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: 20px;
 `
 const Li = styled.li`
   float: left;
@@ -33,6 +45,8 @@ const Input = styled.input`
 `
 const Button = styled.button`
   display: block;
+  font-size: 16px;
+  font-weight: bold;
   margin: 20px auto 0;
   padding: 10px 30px;
   background: #03c75a;
@@ -62,12 +76,15 @@ function Form({ onAddWebtoon }) {
 
   return (
     <Wrap>
+      <Title>
+        UPLOAD YOUR <Green>WEBTOON</Green>
+      </Title>
       <Ul>
         <Li>
           <Input_wrap>
             <Input
               name="title"
-              placeholder="웹툰 이름"
+              placeholder="Webtoon Title"
               value={formValues.title} //input을 입력할 때 내가 입력하는 것이 스크린상에 보여지는 것.
               onChange={handleFormValues}
             />
@@ -77,7 +94,7 @@ function Form({ onAddWebtoon }) {
           <Input_wrap>
             <Input
               name="author"
-              placeholder="작가"
+              placeholder="Author"
               value={formValues.author}
               onChange={handleFormValues}
             />
@@ -87,7 +104,7 @@ function Form({ onAddWebtoon }) {
           <Input_wrap>
             <Input
               name="imageUrl"
-              placeholder="이미지 URL"
+              placeholder="Image URL"
               value={formValues.imageUrl}
               onChange={handleFormValues}
             />
@@ -97,7 +114,7 @@ function Form({ onAddWebtoon }) {
           <Input_wrap>
             <Input
               name="description"
-              placeholder="설명"
+              placeholder="Description"
               value={formValues.description}
               onChange={handleFormValues}
             />
@@ -105,7 +122,7 @@ function Form({ onAddWebtoon }) {
         </Li>
       </Ul>
 
-      <Button onClick={handleSubmit}>등록</Button>
+      <Button onClick={handleSubmit}>UPLOAD</Button>
     </Wrap>
   )
 }
