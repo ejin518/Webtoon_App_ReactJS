@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/ejin518/210228/issues"
   },
-  "homepage": "https://github.com/ejin518/210228",
+  "homepage": "https://github.com/ejin518/210228#readme",
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
