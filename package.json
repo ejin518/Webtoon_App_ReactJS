@@ -7,8 +7,7 @@
     "lint": "eslint .",
     "build": "webpack",
     "dev": "webpack serve",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "db": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/ejin518/210228/issues"
   },
-  "homepage": "https://ejin518.github.io/210228",
+  "homepage": "https://github.com/ejin518/210228#readme",
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
